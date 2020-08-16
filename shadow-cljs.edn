@@ -1,0 +1,6 @@
+{:source-paths ["src"]
+ :builds {:library {:target :node-library
+                    :output-to "out/jackdaw/lib.js"
+                    :exports {:jackdaw-client jackdaw.client/topics
+                              :conf jackdaw.client/conf}
+                    }}}

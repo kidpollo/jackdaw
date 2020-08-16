@@ -1,0 +1,32 @@
+{
+  "name": "jackdaw",
+  "version": "1.0.0",
+  "description": "Jackdaw is a Clojure library for the Apache Kafka distributed streaming platform. With Jackdaw, you can create and list topics using the AdminClient API, produce and consume records using the Producer and Consumer APIs, and create stream processing applications using the Streams API. Jackdaw also contains functions to serialize and deserialize records as JSON, EDN, and Avro, as well as functions for writing unit and integration tests.",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc",
+    "example": "examples",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FundingCircle/jackdaw.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FundingCircle/jackdaw/issues"
+  },
+  "homepage": "https://github.com/FundingCircle/jackdaw#readme",
+  "devDependencies": {
+    "shadow-cljs": "^2.10.21"
+  },
+  "dependencies": {
+    "node-rdkafka": "^2.9.1",
+    "sinek": "^9.1.0"
+  }
+}

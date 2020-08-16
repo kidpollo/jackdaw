@@ -16,3 +16,6 @@ pom.xml.asc
 .lein-*
 .cpcache
 .nrepl-port
+node_modules
+.shadow-cljs
+out
